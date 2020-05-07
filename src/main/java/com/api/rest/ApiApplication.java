@@ -36,19 +36,6 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 public class ApiApplication extends SpringBootServletInitializer implements WebMvcConfigurer {
 
 	public static void main(String[] args) {
-		
-		/*final String ACCOUNT_SID = "ACd8d726deb2d9d3f9c322a784f20dbb09";
-	    final String AUTH_TOKEN ="cfe79349c4733728f84f29d0a16d8279";
-
-	        Twilio.init(ACCOUNT_SID, AUTH_TOKEN);
-
-	        Message message = Message
-	                .creator(new PhoneNumber("+3530833812801"), // to
-	                        new PhoneNumber("+12512903313"), // from
-	                        "Sms working!")
-	                .create();
-
-	        System.out.println(message.getSid());*/
 	
 	        
 		SpringApplication.run(ApiApplication.class, args);
