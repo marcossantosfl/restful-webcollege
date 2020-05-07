@@ -1,6 +1,6 @@
 # restful-webcollege
 
-Restful webcollege is an api built with java, spring boot and hibernate.
+Restful webcollege is an api built with java, spring boot and hibernate (learnt from a tutorial).
 
 WebCollege was created to help some students to save their grade and subjects, and also it was implemented a task reminder.
 
